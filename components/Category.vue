@@ -1,0 +1,32 @@
+<template>
+    <div class="container mx-auto px-14 my-14">
+        <h2 class="mb-2 text-4xl font-bold text-center leading-tight text-neutral-800 dark:text-neutral-50">EDITOR’S PICK</h2>
+        <p class="mb-4 text-center text-neutral-600 dark:text-neutral-200">Problems trying to resolve the conflict between </p>
+        <!-- <div class="grid grid-cols-2 gap-10 v-for="item in items"
+        :key="item.id">
+            <div class="card text-center overflow-hidden bg-cover bg-center bg-top bg-no-repeat bg-[hsla(0,0%,0%,0.75)]" :style="{ backgroundImage: `url(${item.image})` }">
+            <button type="button"
+            class="inline-block rounded bg-neutral-50 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-neutral-800 shadow-[0_4px_9px_-4px_#cbcbcb] transition duration-150 ease-in-out hover:bg-neutral-100 hover:shadow-[0_8px_9px_-4px_rgba(203,203,203,0.3),0_4px_18px_0_rgba(203,203,203,0.2)] focus:bg-neutral-100 focus:shadow-[0_8px_9px_-4px_rgba(203,203,203,0.3),0_4px_18px_0_rgba(203,203,203,0.2)] focus:outline-none focus:ring-0 active:bg-neutral-200 active:shadow-[0_8px_9px_-4px_rgba(203,203,203,0.3),0_4px_18px_0_rgba(203,203,203,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(251,251,251,0.3)] dark:hover:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)] dark:focus:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)] dark:active:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)]">
+                MEN
+            </button>
+            </div>
+            
+        </div> -->
+    </div>
+</template>
+
+<script>
+export default{
+    data() {
+        return {
+            items: [
+                { id: 1, image: '/assets/img/hero-1.png' },
+            ],
+        }
+    }
+}
+</script>
+
+<style lang="scss" scoped>
+
+</style>

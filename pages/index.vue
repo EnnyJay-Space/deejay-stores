@@ -1,9 +1,12 @@
 <template>
-    
-    <div class="header">
+    <div>
+        <Hero />
+        <Category />
+    </div>
+    <div >
         <h2>Home</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe perspiciatis, excepturi esse in soluta fugiat. Mollitia sit odit impedit hic.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe perspiciatis, excepturi esse in soluta fugiat. Mollitia sit odit impedit hic.</p>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe perspiciatis, excepturi esse in soluta fugiat. Mollitia sit odit impedit hic.</p> -->
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe perspiciatis, excepturi esse in soluta fugiat. Mollitia sit odit impedit hic.</p> -->
     </div>
 </template>
 

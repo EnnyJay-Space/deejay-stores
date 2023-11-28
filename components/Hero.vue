@@ -8,7 +8,7 @@
       style="height: 90vh;"
       >
     <div
-      class="absolute px-14 top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.15)] bg-fixed">
+      class="absolute lg:px-14 top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.15)] bg-fixed">
       <div class="flex h-full items-center justify-left">
         <div class="px-6 text-center sm:text-left text-white md:px-12">
           <h6 class="mb-2 mt-0 text-base font-medium leading-tight text-primary">

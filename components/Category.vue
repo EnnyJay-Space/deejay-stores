@@ -1,32 +1,74 @@
 <template>
-    <div class="container mx-auto px-14 my-14">
-        <h2 class="mb-2 text-4xl font-bold text-center leading-tight text-neutral-800 dark:text-neutral-50">EDITOR’S PICK</h2>
-        <p class="mb-4 text-center text-neutral-600 dark:text-neutral-200">Problems trying to resolve the conflict between </p>
-        <!-- <div class="grid grid-cols-2 gap-10 v-for="item in items"
-        :key="item.id">
-            <div class="card text-center overflow-hidden bg-cover bg-center bg-top bg-no-repeat bg-[hsla(0,0%,0%,0.75)]" :style="{ backgroundImage: `url(${item.image})` }">
-            <button type="button"
-            class="inline-block rounded bg-neutral-50 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-neutral-800 shadow-[0_4px_9px_-4px_#cbcbcb] transition duration-150 ease-in-out hover:bg-neutral-100 hover:shadow-[0_8px_9px_-4px_rgba(203,203,203,0.3),0_4px_18px_0_rgba(203,203,203,0.2)] focus:bg-neutral-100 focus:shadow-[0_8px_9px_-4px_rgba(203,203,203,0.3),0_4px_18px_0_rgba(203,203,203,0.2)] focus:outline-none focus:ring-0 active:bg-neutral-200 active:shadow-[0_8px_9px_-4px_rgba(203,203,203,0.3),0_4px_18px_0_rgba(203,203,203,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(251,251,251,0.3)] dark:hover:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)] dark:focus:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)] dark:active:shadow-[0_8px_9px_-4px_rgba(251,251,251,0.1),0_4px_18px_0_rgba(251,251,251,0.05)]">
-                MEN
-            </button>
+    <div class="container mx-auto lg:px-14 my-14">
+        <h2 class="mb-2 text-4xl font-bold text-center leading-tight text-neutral-800 dark:text-neutral-50">EDITOR’S PICK
+        </h2>
+        <p class="mb-4 text-center text-neutral-600 dark:text-neutral-200">Problems trying to resolve the conflict between
+        </p>
+        <div class="px-14 grid lg:grid-cols-2 gap-5">
+            <div class="relative">
+                <img src="../assets/img/unsplash_Bd7gNnWJBkU.jpg" alt="category"
+                    class="w-full mt-auto bottom-0 left-0 object-cover">
+                <div class="absolute bg-[#2d8ac0a1] w-70 pr-20 bottom-0 left-0 p-14">
+                    <div class=" d-block">
+                        <p class="category-heading text-white mb-10">Top Product Of the Week</p>
+                        <NuxtLink class="border px-10 py-3 rounded text-white" to="/blog">EXPLORE ITEMS</NuxtLink>
+                    </div>
+                </div>
             </div>
-            
-        </div> -->
+            <div class="">
+                <div class="relative h-64">
+                    <img src="../assets/img/unsplash_MKvjc2kar7Q.jpg" alt="category"
+                        class="w-full mt-auto bottom-0  left-0 object-cover">
+                    <div class="absolute bg-[#2d8ac0a1] w-70 pr-20 bottom-0 left-0 p-14">
+                        <div class=" d-block">
+                            <p class="category-heading text-white mb-10">Top Product Of the Week</p>
+                            <NuxtLink class="border px-10 py-3 rounded text-white" to="/blog">EXPLORE ITEMS</NuxtLink>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="../assets/img/unsplash_Bd7gNnWJBkU.jpg" alt="category"
+                        class="w-full mt-auto bottom-0 left-0 object-cover">
+                    <div class="absolute bg-[#2d8ac0a1] w-70 pr-20 bottom-0 left-0 p-14">
+                        <div class=" d-block">
+                            <p class="category-heading text-white mb-10">Top Product Of the Week</p>
+                            <NuxtLink class="border px-10 py-3 rounded text-white" to="/blog">EXPLORE ITEMS</NuxtLink>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="card">
+                <img src="../assets/img/card-item.png" alt="category" class="w-full h-32 sm:h-48 object-cover">
+                <div class="m-4">
+                    <span class="font-bold">5 bean chill</span>
+                    <span class="block text-gray-500 text-sm">Recipe by EnnyJay</span>
+                </div>
+                <div class="badge">
+                    <span>25 mins</span>
+                </div>
+            </div> -->
+
+        </div>
+
     </div>
 </template>
 
 <script>
-export default{
+export default {
     data() {
         return {
-            items: [
-                { id: 1, image: '/assets/img/hero-1.png' },
+            features: [
+                { id: 1, name: 'MEN', image: '/assets/img/hero-1.png' },
             ],
         }
     }
 }
 </script>
 
-<style lang="scss" scoped>
-
+<style scoped>
+.category-heading {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
 </style>

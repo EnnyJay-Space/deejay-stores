@@ -15,7 +15,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grid grid-cols-1 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-5">
                 <div class="relative h-24 ">
                     <img src="../assets/img/unsplash_MKvjc2kar7Q.jpg" alt="category"
                         class="w-full mt-auto bottom-0 h-96 lg:h-72 left-0 object-cover ">
@@ -26,10 +26,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="relative h-24 top-72 lg:top-0 bg-[#909]">
+                <div class="relative h-24 top-72 md:top-0 lg:top-0 bg-[#909]">
                     <img src="../assets/img/unsplash_muOHbrFGEQY.jpg" alt="category"
                         class="w-full mt-auto bottom-0 h-96 lg:h-72 left-0 object-cover">
-                    <div class="absolute bg-[#2d8ac0a1] w-70 pr-24 top-60 lg:top-16 lg:mt-4 left-0 p-8 lg:p-14">
+                    <div class="absolute bg-[#2d8ac0a1] w-70 pr-24 top-60 lg:top-16 lg:mt-4 left-0 p-7 lg:p-14">
                         <div class=" d-block">
                             <p class="category-heading text-white mb-10 text-sm lg:text-2xl">Top Product Of the Week</p>
                             <NuxtLink class="border px-10 py-3 rounded text-white text-sm" to="/blog">EXPLORE ITEMS</NuxtLink>
@@ -38,25 +38,13 @@
                 </div>
             </div>
         </div>
-
     </div>
 </template>
 
-<script>
-export default {
-    data() {
-        return {
-            features: [
-                { id: 1, name: 'MEN', image: '/assets/img/hero-1.png' },
-            ],
-        }
-    }
-}
-</script>
+
 
 <style scoped>
 .category-heading {
-    /* font-size: 24px; */
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }

@@ -2,6 +2,36 @@
     <div>
         <Hero />
         <Category />
+        <!-- <FeaturedProducts /> -->
+        <Product />
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
     <div>
         <!-- <h2>Home</h2> -->

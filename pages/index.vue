@@ -2,8 +2,9 @@
     <div>
         <Hero />
         <Category />
-        <!-- <FeaturedProducts /> -->
         <Product />
+        <AnotherHero />
+        <!-- <FeaturedProducts /> -->
         <br>
         <br>
         <br>

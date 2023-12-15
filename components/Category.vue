@@ -11,7 +11,7 @@
                 <div class="absolute bg-[#2d8ac0a1] w-70 pr-24  bottom-0 lg:left-0 p-8 lg:p-14">
                     <div class=" d-block">
                         <p class="category-heading text-white mb-10 text-sm lg:text-2xl">Top Product Of the Week</p>
-                        <NuxtLink class="border px-10 py-3 rounded text-white text-sm" to="/blog">EXPLORE ITEMS</NuxtLink>
+                        <NuxtLink class="border px-10 py-3 rounded text-white text-sm category-btn" to="/">EXPLORE ITEMS</NuxtLink>
                     </div>
                 </div>
             </div>
@@ -22,7 +22,8 @@
                     <div class="absolute bg-[#2d8ac0a1] w-70 top-60  pr-24 lg:top-16 lg:mt-4 left-0 p-7 lg:p-14">
                         <div class=" d-block">
                             <p class="category-heading text-white mb-10 text-sm lg:text-2xl">Top Product Of the Week</p>
-                            <NuxtLink class="border px-10 py-3 rounded text-white text-sm " to="/blog">EXPLORE ITEMS</NuxtLink>
+                            <NuxtLink class="border px-10 py-3 rounded text-white text-sm  category-btn" to="/">EXPLORE ITEMS
+                            </NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -32,7 +33,8 @@
                     <div class="absolute bg-[#2d8ac0a1] w-70 pr-24 top-60 lg:top-16 lg:mt-4 left-0 p-7 lg:p-14">
                         <div class=" d-block">
                             <p class="category-heading text-white mb-10 text-sm lg:text-2xl">Top Product Of the Week</p>
-                            <NuxtLink class="border px-10 py-3 rounded text-white text-sm" to="/blog">EXPLORE ITEMS</NuxtLink>
+                            <NuxtLink class="border px-10 py-3 rounded text-white text-sm category-btn" to="/">EXPLORE ITEMS
+                            </NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -47,5 +49,27 @@
 .category-heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+}
+.category-btn:hover{
+    background-color: #2DC071;
+    border: #2DC071;
+}
+
+@media (min-width: 1024px) and (max-width: 1536px) {
+    .lg\:h-72 {
+        height: 10.8rem;
+    }
+
+    .lg\:p-14 {
+        padding: 1rem;
+    }
+
+    .lg\:top-16 {
+        top: 2.8rem;
+    }
+
+    .lg\:mt-4 {
+        margin-top: 0;
+    }
 }
 </style>

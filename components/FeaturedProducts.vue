@@ -22,10 +22,21 @@ export default {
         };
     },
     methods: {
+        async fetch() {
+            try {
+                const products = await this.$axios.get('https://fakestoreapi.com/products')
+                console.log(products,666)
+            } catch (error) {
+                console.error('Error fetching data:', error, 222)
+            }
+        },
         async fetchData() {
             try {
-                const response = await this.$axios.get('https://api.example.com/products');
-                this.products = response.data;
+                // const products = await this.axios.get('https://fakestoreapi.com/products');
+                // this.products = response.data;
+                // const products = [1, 2, 3, 4 , 5, 6, 7, 8, 9, 10]
+                const display = products.slice(0, 5);
+                console.log(display, 444);
             } catch (error) {
                 console.error('Error fetching products:', error);
             }
@@ -34,7 +45,7 @@ export default {
 
     mounted() {
         // Call the fetchData method when the component is mounted
-        this.fetchData();
+        this.fetch();
     },
 }
 </script>

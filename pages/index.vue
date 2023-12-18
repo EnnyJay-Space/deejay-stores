@@ -4,35 +4,9 @@
         <Category />
         <Product />
         <AnotherHero />
-        <!-- <FeaturedProducts /> -->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <NeuralUniverse />
+        <FeaturedBlog />
+        
     </div>
     <div>
         <!-- <h2>Home</h2> -->

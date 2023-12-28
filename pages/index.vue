@@ -6,6 +6,7 @@
         <AnotherHero />
         <NeuralUniverse />
         <FeaturedBlog />
+        <Socials />
         
     </div>
     <div>

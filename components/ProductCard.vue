@@ -1,7 +1,7 @@
 <template>
     <div >
-        <div class="card text-center ">
-            <img :src="product.image" alt="product thumb" class="thumb">
+        <div class="card text-center">
+            <img :src="product.image" alt="product thumb" class="thumb mx-auto">
             <p class="font-bold text-gray-500 m-4 truncate">{{ product.title }}</p>
             <p class="font-bold text-gray-500">${{ product.price }}</p>
             <NuxtLink :to="`/products/${product.id}`">

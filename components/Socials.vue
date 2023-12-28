@@ -3,9 +3,9 @@
     <div class="grid grid-cols-2">
         <img src="../assets/img/logo.png" alt="">
         <div class="flex justify-end">
-            <img class="p-3 pb-0 w-15 h-10" src="../assets/img/facebook-filled.png" alt="">
-            <img class="p-3 pb-0 w-15 h-10" src="../assets/img/instagram-outlined.png" alt="">
-            <img class="p-3 pb-0 w-15 h-10" src="../assets/img/twitter-outlined.png" alt="">
+            <img class="p-3 lg:pb-0 w-15 h-10" src="../assets/img/facebook-filled.png" alt="">
+            <img class="p-3 lg:pb-0 w-15 h-10" src="../assets/img/instagram-outlined.png" alt="">
+            <img class="p-3 lg:pb-0 w-15 h-10" src="../assets/img/twitter-outlined.png" alt="">
         </div>
     </div>
   </div>

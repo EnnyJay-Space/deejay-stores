@@ -7,6 +7,7 @@
         <NeuralUniverse />
         <FeaturedBlog />
         <Socials />
+        <Footer />
         
     </div>
     <div>

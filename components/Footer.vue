@@ -92,6 +92,9 @@
             </div>
         </div>
     </div>
+    <div class="py-3 md:px-12 lg:px-14 lg:mx-14 mx-4 ">
+        <p class="text-gray-500">Made With Love By Enny-Jay All Right Reserved </p>
+    </div>
 </template>
 
 <script>

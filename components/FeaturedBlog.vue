@@ -13,7 +13,7 @@
                     <span class="absolute badge">NEW</span>
                     <img src="../assets/img/blog-1.png" alt="">
                     <article v-for="post in posts" :key="post.id"
-                        class="flex max-w-xl flex-col items-start justify-between p-8">
+                        class="flex max-w-xl flex-col items-start justify-between p-4 lg:p-3">
                         <div class="flex items-center gap-x-4">
                             <NuxtLink :href="post.category.href" class="blog-category active">{{
                                 post.category.title1 }}</NuxtLink>
@@ -32,15 +32,15 @@
                             <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{{ post.description }}</p>
                             <div class="my-2 grid grid-cols-2">
                                 <div class="flex">
-                                    <img class="w-6 h-6 me-1" src="../assets/img/clock.png" alt=""><time
+                                    <img class="w-4 h-4 me-1 my-auto" src="../assets/img/clock.png" alt=""><time
                                         :datetime="post.datetime" class="text-gray-500">{{ post.date }}</time>
                                 </div>
                                 <div class="flex justify-end">
-                                    <img class="w-6 h-6 me-1" src="../assets/img/comment.png" alt=""><time
+                                    <img class="w-4 h-4 me-1 my-auto" src="../assets/img/comment.png" alt=""><time
                                         :datetime="post.datetime" class="text-gray-500">{{ post.comment }}</time>
                                 </div>
                             </div>
-                            <NuxtLink class="flex mt-4 font-bold" to="">Learn More <img class="w-3 ms-3"
+                            <NuxtLink class="flex mt-4 font-bold" to="">Learn More <img class="w-2 h-3 my-auto ms-3"
                                     src="../assets/img/icon-arrow-next.png" alt=""></NuxtLink>
                         </div>
                     </article>
@@ -49,7 +49,7 @@
                     <span class="absolute badge">NEW</span>
                     <img src="../assets/img/blog-2.png" alt="">
                     <article v-for="post in posts" :key="post.id"
-                        class="flex max-w-xl flex-col items-start justify-between p-8">
+                        class="flex max-w-xl flex-col items-start justify-between p-4 lg:p-3">
                         <div class="flex items-center gap-x-4">
                             <NuxtLink :href="post.category.href" class="blog-category active">{{
                                 post.category.title1 }}</NuxtLink>
@@ -68,15 +68,15 @@
                             <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{{ post.description }}</p>
                             <div class="my-2 grid grid-cols-2">
                                 <div class="flex">
-                                    <img class="w-6 h-6 me-1" src="../assets/img/clock.png" alt=""><time
+                                    <img class="w-4 h-4 me-1 my-auto" src="../assets/img/clock.png" alt=""><time
                                         :datetime="post.datetime" class="text-gray-500">{{ post.date }}</time>
                                 </div>
                                 <div class="flex justify-end">
-                                    <img class="w-6 h-6 me-1" src="../assets/img/comment.png" alt=""><time
+                                    <img class="w-4 h-4 me-1 my-auto" src="../assets/img/comment.png" alt=""><time
                                         :datetime="post.datetime" class="text-gray-500">{{ post.comment }}</time>
                                 </div>
                             </div>
-                            <NuxtLink class="flex mt-4 font-bold" to="">Learn More <img class="w-3 ms-3"
+                            <NuxtLink class="flex mt-4 font-bold" to="">Learn More <img class="w-2 h-3 my-auto ms-3"
                                     src="../assets/img/icon-arrow-next.png" alt=""></NuxtLink>
                         </div>
                     </article>
@@ -85,7 +85,7 @@
                     <span class="absolute badge">NEW</span>
                     <img src="../assets/img/blog-3.png" alt="">
                     <article v-for="post in posts" :key="post.id"
-                        class="flex max-w-xl flex-col items-start justify-between p-8">
+                        class="flex max-w-xl flex-col items-start justify-between p-4 lg:p-3">
                         <div class="flex items-center gap-x-4">
                             <NuxtLink :href="post.category.href" class="blog-category active">{{
                                 post.category.title1 }}</NuxtLink>
@@ -104,15 +104,15 @@
                             <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{{ post.description }}</p>
                             <div class="my-2 grid grid-cols-2">
                                 <div class="flex">
-                                    <img class="w-6 h-6 me-1" src="../assets/img/clock.png" alt=""><time
+                                    <img class="w-4 h-4 me-1 my-auto" src="../assets/img/clock.png" alt=""><time
                                         :datetime="post.datetime" class="text-gray-500">{{ post.date }}</time>
                                 </div>
                                 <div class="flex justify-end">
-                                    <img class="w-6 h-6 me-1" src="../assets/img/comment.png" alt=""><time
+                                    <img class="w-4 h-4 me-1 my-auto" src="../assets/img/comment.png" alt=""><time
                                         :datetime="post.datetime" class="text-gray-500">{{ post.comment }}</time>
                                 </div>
                             </div>
-                            <NuxtLink class="flex mt-4 font-bold" to="">Learn More <img class="w-3 ms-3"
+                            <NuxtLink class="flex mt-4 font-bold" to="">Learn More <img class="w-2 h-3 my-auto ms-3"
                                     src="../assets/img/icon-arrow-next.png" alt=""></NuxtLink>
                         </div>
                     </article>

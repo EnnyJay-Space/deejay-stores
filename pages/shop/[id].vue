@@ -20,9 +20,9 @@
     }
 
 
-    definePageMeta({
-        layout: 'products',
-    })
+    // definePageMeta({
+    //     layout: 'products',
+    // })
 </script>
 
 <style scoped>
